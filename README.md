@@ -28,10 +28,12 @@ This command is called *adding the upstream remote*. It will allow you to keep y
 This command is called *finding out where you are*. It will tell you which branch you're currently on and what changes you have made that haven't been recorded.
 
 Before you start working on anything, you want this command to reply:
+
 	# On branch master
 	nothing to commit (working directory clean)
 
 After you have made some changes, you want this command to reply:
+
 	# On branch {the-branch-you-are-working-on}
 	# Changes not staged for commit:
 	#   (use "git add/rm <file>..." to update what will be committed)
