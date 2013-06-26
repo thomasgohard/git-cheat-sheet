@@ -6,6 +6,7 @@ A cheat sheet of useful git commands.
 ## Assumptions
 
 This cheat sheet assumes that:
+
 1. You are using GitHub. Because GitHub is **awesome**.
 1. You are working with the command line. Because the command line is the only way to fly.
 
