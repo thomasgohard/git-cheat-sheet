@@ -10,6 +10,18 @@ This cheat sheet assumes that:
 1. You are using GitHub. Because GitHub is **awesome**.
 1. You are working with the command line. Because the command line is the only way to fly.
 
+## Install git
+
+>Placeholder for instructions on installing git on Linux, Mac and Windows.
+
+## Configure git
+
+	git config --global user.name {your-name}
+
+	git config --global user.email {the-email-address-you-use-for-github}
+
+These commands are part of what's called *identifying yourself*. They tell git who you are so that git and GitHub can tell what modifications were made by you.
+
 ## Make a copy of a repository on your local machine
 
 	git clone https://github.com/{your-github-handle}/{repository-you-want-to-work-on}.git
