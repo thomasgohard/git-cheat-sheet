@@ -87,6 +87,18 @@ At this point, you can start making changes. Once you're done making your change
 
 These commands is part of what's called *staging for commit*. They will tell `git` which files it needs to update with your changes. For each file you added or modified, use `git add`; for each file you deleted, use 'git rm`.
 
+After *staging changes for commit*, you should *find out where you are* to make sure all the changes you want to record are staged. You want the command to reply:
+
+	# On branch {the-branch-you-are-working-on}
+	# Changes to be committed:
+	#   (use "git reset HEAD <file>..." to unstage)
+	#
+	#	modified:   {a-file-you-have-modified}
+	#	added:		{a-file-you-added}
+	#	deleted:	{a-file-you-deleted}
+	#
+
+
 ## Tell git to record the cool things you did
 
 	git commit -m "{description-of-the-changes-you-are-committing}"
