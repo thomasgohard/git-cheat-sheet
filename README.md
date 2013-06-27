@@ -73,7 +73,7 @@ At this point, you can start making changes. Once you're done making your change
 
 	git rm {file-you-deleted}
 
-These commands is part of what's called *staging for commit*. They will get `git` which files it needs to update with your changes. For each file you added or modified, use `git add`; for each file you deleted, use 'git rm`.
+These commands is part of what's called *staging for commit*. They will tell `git` which files it needs to update with your changes. For each file you added or modified, use `git add`; for each file you deleted, use 'git rm`.
 
 ## Tell git to record the cool things you did
 
