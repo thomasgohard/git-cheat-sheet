@@ -61,6 +61,7 @@ You will want to run this command anytime you're about to start working on somet
 This command is called *branching a safety net*. It will create a workspace for you to do cool things in without any risk of [fecking up](http://www.urbandictionary.com/define.php?term=feck) anything.
 
 After *branching a safety net*, *finding out where you are* should return:
+
 	# On branch {a-descriptive-name-for-what-you-will-work-on}
 	nothing to commit (working directory clean)
 
