@@ -110,3 +110,13 @@ This command is called *committing a change*. It tells `git` to record all the c
 	git push origin {the-branch-you-are-working-on}
 
 This command is called *pushing your changes*. It takes all the changes you committed using *committing a change* and records them on GitHub for the world to see.
+
+## Clean up when you're done
+
+	git branch -D {the-branch-you-no-longer-need}
+
+	git push origin --delete {the-branch-you-no-longer-need}
+
+These commands are part of what is called *cleaning up*. The first one deletes your branch locally, the second one deletes your branch on GitHub.
+
+Make sure you really are done with your branch before deleting it though.
