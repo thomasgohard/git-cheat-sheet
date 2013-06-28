@@ -107,6 +107,6 @@ This command is called *committing a change*. It tells `git` to record all the c
 
 ## Tell the world about the cool things you did
 
-	git push origin master
+	git push origin {the-branch-you-are-working-on}
 
 This command is called *pushing your changes*. It takes all the changes you committed using *committing a change* and records them on GitHub for the world to see.
