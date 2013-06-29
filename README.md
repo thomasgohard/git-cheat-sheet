@@ -12,7 +12,17 @@ This cheat sheet assumes that:
 
 ## Install git
 
->Placeholder for instructions on installing git on Linux, Mac and Windows.
+>Placeholder for instructions on installing git on Mac and Windows.
+
+### Linux
+
+If you're using the `apt` package manager that is common to Debian-based distributions such as Ubuntu:
+
+	apt-get install git
+
+If you're using the `yum` package manager that is common to Red Hat-based distributions such as Fedora:
+
+	yum install git-core
 
 ## Configure git
 
