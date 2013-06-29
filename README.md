@@ -98,12 +98,23 @@ After *staging changes for commit*, you should *find out where you are* to make 
 	#	deleted:	{a-file-you-deleted}
 	#
 
-
 ## Tell git to record the cool things you did
 
 	git commit -m "{description-of-the-changes-you-are-committing}"
 
 This command is called *committing a change*. It tells `git` to record all the changes you made to the files you specified with *staging for commit* so that you don't lose the cool things you did.
+
+## Make sure you have all the latest changes
+
+	git checkout master
+	
+	git fetch upstream && git merge upstream/master
+
+	git checkout {the-branch-you-are-working-on}
+
+	git rebase master
+
+These commands are part of what is called *rebasing from master*. They update your branch with all the changes that have been made to the master branch since you created your branch. This helps avoid complications when you submit a pull request to bring your changes into the master branch of the original repository that you have forked.
 
 ## Tell the world about the cool things you did
 
