@@ -11,8 +11,15 @@ This cheat sheet assumes that:
 1. You are working with the command line. Because the command line is the only way to fly.
 
 ## Install git
+A list of Git clients can be found here http://git-scm.com/downloads, but below are some common install methods.
 
->Placeholder for instructions on installing git on Mac and Windows.
+### Mac 
+The GitHub for Mac can be found here http://mac.github.com/
+
+The command line tools can be added from the Preferences menu after installation.
+
+### Windows
+The GitHub for Windows client includes a copy of the git commandline tool and can be found here http://windows.github.com/
 
 ### Linux
 
