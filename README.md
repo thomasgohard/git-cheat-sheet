@@ -148,3 +148,15 @@ This command is called *pushing your changes*. It takes all the changes you comm
 These commands are part of what is called *cleaning up*. The first one deletes your branch locally, the second one deletes your branch on GitHub.
 
 Make sure you really are done with your branch before deleting it though.
+
+## Publish to GitHub pages
+
+The first time you want to publish to the GitHub pages for your repository, run:
+
+	git checkout --orphan gh-pages && git push origin gh-pages
+
+The subsequent times you want to publish to the GitHub pages for your repository, run:
+
+	git checkout -B gh-pages && git push origin gh-pages
+
+These commands are part of what is called *publishing to gh-pages*. The first one creates a new branch called gh-pages. It's necessary to run this command the fist time you want to publish to gh-pages. The second command updates the gh-pages branch with the latest changes from the branch that you are currently working on.
