@@ -125,11 +125,7 @@ This command is called *committing a change*. It tells `git` to record all the c
 
 	git checkout master
 	
-	git fetch upstream && git merge upstream/master
-
-	git checkout {the-branch-you-are-working-on}
-
-	git rebase master
+	git pull --rebase upstream master
 
 These commands are part of what is called *rebasing from master*. They update your branch with all the changes that have been made to the master branch since you created your branch. This helps avoid complications when you submit a pull request to bring your changes into the master branch of the original repository that you have forked.
 
