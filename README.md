@@ -121,6 +121,14 @@ After *staging changes for commit*, you should *find out where you are* to make 
 
 This command is called *committing a change*. It tells `git` to record all the changes you made to the files you specified with *staging for commit* so that you don't lose the cool things you did.
 
+## Modify your last commit
+
+	git add {file-you-updated-since-your-last-commit}
+
+	git commit --amend --no-edit
+
+These commands are part of what is called *amending your last set of changes*. They tells `git` to update the record of the last set of changes you made to include more changes, whether they be additional changes or corrections. This helps you keep sets of changes together in the same commit.
+
 ## Make sure you have all the latest changes
 
 	git checkout master
